@@ -4,14 +4,15 @@
 
 ## Instructions
 
-1. Install using npm
+1. Install SASS using npm
     ```bash
     npm install -g sass
     ```
 2. Compile the SASS files into CSS which could be used in a webpage.
     ```bash
-    sass sass/styles.scs css/main.css
+    sass ./sass/styles.scs ./css/main.css
     ```
+3. The compiled CSS could be seen by visiting `./index.html`
 
 **For documentation on SASS/SCSS visit the [Documentation](https://sass-lang.com).**
 
@@ -24,6 +25,6 @@
 * `scss/partials` - Where most of the eat of the scss is constructed.
 * `scss/vendor` - Reserved for 3rd party CSS, such as `Normalize.css`
 
-**For more information on file structure, check out [John W. Long's Blog](http://thesassway.com/beginner/how-to-structure-a-sass-project)**
+**For more information on file structure, check out [John W. Long's Blog](http://thesassway.com/beginner/how-to-structure-a-sass-project).**
 
 ---
